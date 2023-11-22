@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(45deg, #ffffff, rgb(195, 85, 7) 50%);
+    color: #fff;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 15%;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color:#a25100;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+#contact {
+    margin-top: 30px;
+}
+
+#contact h2 {
+    color:#a25100;
+    font-weight: bold;
+    text-shadow: 0 2px 2px black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #a25100;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff8000;
+}
+
+footer {
+    background: linear-gradient(45deg, #848484 10%, #000000 50%);
+    color: #fff;
+    text-align: center;
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.footer-logo img {
+    width: 20%;
+    margin-bottom: 10px;
+    
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+
+.footer-social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.footer-social li {
+    margin-right: 10px;
+    
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+   
+    transition: color 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-social p {
+    color: white;
+    font-size: 95%;
+    font-weight: normal;
+}
+
+.footer-social a:hover {
+    color: #a49c00;
+    
+}
+

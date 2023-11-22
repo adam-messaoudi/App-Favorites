@@ -1,0 +1,88 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.611), rgb(0, 0, 0)), url('sport3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 30%; 
+    margin-bottom: -5%;
+}
+
+header button {
+    font-size: 2em;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 1px 2px 3px rgb(8, 8, 8);
+    margin-top: -10%;
+    margin-bottom: 3%;
+    padding: 10px 20px;
+}
+
+a:hover,
+button:hover {
+    background: linear-gradient(45deg, #0000007d 100%, rgba(0, 0, 0, 0.277) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 5px rgba(0, 121, 140, 0.748);
+    transition:  0.4s ease-in-out; 
+}
+
+.button-container:hover .links-container {
+    max-height: 100px;
+    transition: max-height 0.3s ease-in-out;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+.links-container {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+    margin-top: 10px;
+}
+
+.links-container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.648);
+    margin-right: 3%;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

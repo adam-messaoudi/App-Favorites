@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(45deg, #848484 20%, #948500 70%);
+    color: #fff;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 15%;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color:#a49c00;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.hero-section {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero-section h2 {
+    color: #948500;
+    font-weight: bold;
+    text-shadow: 0 2px 2px black;
+}
+
+.hero-section p {
+    color: #555;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #867900;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #635900;
+}
+
+.featured-courses {
+    margin-top: 30px;
+}
+
+.course-card {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.course-card img {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+}
+
+.course-card h3,
+.course-card p {
+    padding: 20px;
+    font-weight: bold;
+   
+}
+
+footer {
+    background: linear-gradient(45deg, #848484 10%, #000000 50%);
+    color: #fff;
+    text-align: center;
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.footer-logo img {
+    width: 20%;
+    margin-bottom: 10px;
+    
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+
+.footer-social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.footer-social li {
+    margin-right: 10px;
+    
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+   
+    transition: color 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-social p {
+    color: white;
+}
+
+.footer-social a:hover {
+    color: #a49c00;
+    
+}

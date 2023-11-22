@@ -1,0 +1,186 @@
+body {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(45deg, #ffffff 0%, rgb(0, 0, 0) 70%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+nav {
+    background-color: #616060;
+    box-shadow: 0 2px 15px black;
+    padding: 5px;
+    margin-bottom: 10%;
+}
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+ 
+    
+
+}
+
+
+.app1 {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid#0099b4;
+    text-align: center;
+    width: 30%;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px#00505f;
+    transition: transform 0.3s;
+    border-radius: 10px;
+    
+   
+}
+
+
+.app2 {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(241, 100, 0);
+    text-align: center;
+    width: 30%;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px  rgb(124, 52, 0);
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+.app3 {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid  #ffe600;
+    text-align: center;
+    width: 30%;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px #6c6100;
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+
+.app:hover {
+    transform: scale(1.05);
+}
+
+.app h2 {
+    color: #000000;
+    font-size: 24px;
+    list-style-type: none;
+    
+   
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    color: white;
+    padding: 10px;
+    background-image: linear-gradient(-0deg, #ffffff 0%, rgb(43, 43, 43) 10%);
+
+}
+
+.bottom-image {
+    width: 30%;
+    height: 30%; 
+}
+
+
+.app1, .app2, .app3, footer {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.app1 img {
+    height: 50%; 
+    width: 35%;
+}
+
+.app2 img {
+    height: 50%;
+    width: 50%;
+}
+
+.app3 img {
+    height: 50%; 
+    width: 50%;
+}
+
+
+
+.app1 h3 {
+    background: linear-gradient(45deg, #00b3ff 30%, #000000 80%);
+    transform: skew(-5deg) rotate(-0deg);
+    text-transform: uppercase;
+    cursor: default;
+    text-align: center;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 3;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    text-shadow: 1px 2px 3px rgb(8, 8, 8);
+    
+}
+
+.app1 a {
+    background-image: linear-gradient(0deg, #09b0de 10%, rgb(255, 255, 255) 100%);
+}
+
+.app2 h3 {
+    background: linear-gradient(45deg, #ff7b00 30%, #000000 80%);
+    transform: skew(-5deg) rotate(-0deg);
+    text-transform: uppercase;
+    cursor: default;
+    text-align: center;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 3;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+    text-shadow: 1px 2px 3px rgb(8, 8, 8);
+}
+
+.app2 a {
+   background-image: linear-gradient(0deg, #de7b09 10%, rgb(255, 255, 255) 100%);
+}
+
+.app3 h3 {
+    background: linear-gradient(45deg, rgb(149, 144, 0) 50%, #000000 80%);
+    transform: skew(-5deg) rotate(-0deg);
+    text-transform: uppercase;
+    cursor: default;
+    text-align: center;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 3;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+   
+    text-shadow: 0px 2px 3px rgb(8, 8, 8);
+}
+
+.app3 a {
+    background-image: linear-gradient(-0deg, #dbde09 10%, rgb(255, 255, 255) 100%);
+   
+}

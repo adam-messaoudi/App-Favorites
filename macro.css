@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.589), rgb(0, 0, 0)), url('fond1.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+.nutrition-container {
+    display: flex;
+    height: 80vh;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.column {
+    
+  
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Masque les images qui dépassent de la colonne */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre le contenu horizontalement */
+    justify-content: center; /* Centre le contenu verticalement */
+  
+   
+    
+}
+
+.image-scroll {
+    display: flex;
+    animation: scrollAnimation 10s linear infinite; /* Ajustez la durée selon vos préférences */
+    width: 50%; /* Ajuste la largeur pour correspondre à la taille des images */
+    height: 50%;
+}
+
+img {
+    width: 100%; /* Ajuste la largeur des images pour occuper toute la largeur de la colonne */
+    height: 100%; /* Ajuste la hauteur pour occuper toute la hauteur de la colonne */
+    object-fit: cover;
+   
+}
+
+h1 {
+    font-size: 200%;
+    background: linear-gradient(45deg, #1c7afd 50%, rgb(26, 255, 0) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+h2 {
+    font-size: 200%;
+    background: linear-gradient(70deg, #00da16 30%, rgb(255, 0, 0) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 5px rgb(0, 0, 0)
+}
+h3 {
+    font-size: 200%;
+    background: linear-gradient(45deg, #ff0000 30%, rgba(49, 143, 244, 0.599) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+p{
+    color: wheat;
+    text-shadow: 0 0 5px white;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(100%);
+    }
+    25% {
+        transform: translateX(-50%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    0% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+header {
+    text-align: center; /* Ajout de cette ligne pour centrer les éléments enfants horizontalement */
+}
+
+header button {
+    font-size: 25px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+a:hover, button:hover {
+    background: linear-gradient(45deg, #ffffff 5%, rgb(195, 85, 7)100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.sidebar-container:hover .sidebar-list {
+    max-height: 100px; 
+    transition: max-height 0.3s ease-in-out;
+    text-align: center;
+}
+
+
+.sidebar-list {
+    max-height: 0; 
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+   
+}
+
+.sidebar-list li {
+    list-style-type: none;
+    margin: 10px 0;
+    
+}
+
+.sidebar-list a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+      
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
